@@ -1,0 +1,5 @@
+FROM nginx
+RUN apt-get update && apt-get install --yes curl build-essential
+RUN curl --silent --location https://deb.nodesource.com/setup_9.x | bash -
+RUN apt-get install --yes nodejs
+CMD nginx -t

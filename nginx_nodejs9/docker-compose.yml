@@ -1,0 +1,8 @@
+version: '3'
+services:
+    nodejs:
+        build:
+            dockerfile: dockerfile_node
+            context: ./
+        image: qorzj/nodejs9
+

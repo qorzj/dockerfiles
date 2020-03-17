@@ -1,0 +1,8 @@
+version: '3'
+services:
+  python_36_alpine_pillow:
+    build:
+      dockerfile: dockerfile_py
+      context: ./
+    image: qorzj/python:3.6-alpine-pillow
+
