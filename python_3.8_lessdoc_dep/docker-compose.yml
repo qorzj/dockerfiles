@@ -1,0 +1,8 @@
+version: '3'
+services:
+  python_38_lessdoc_dep:
+    build:
+      dockerfile: dockerfile_py
+      context: ./
+    image: qorzj/python:3.8-lessdoc-dep
+
