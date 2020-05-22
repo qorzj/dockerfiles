@@ -1,0 +1,8 @@
+version: '3'
+services:
+    java:
+        build:
+            dockerfile: dockerfile_web
+            context: ./
+        image: qorzj/nodejs:py3
+
