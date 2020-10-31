@@ -2,6 +2,6 @@ version: '3'
 services:
     maven:
         build:
-            dockerfile: dockerfile
+            dockerfile: Dockerfile
             context: ./
         image: qorzj/maven-jdk8-docker
