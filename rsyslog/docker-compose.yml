@@ -1,0 +1,7 @@
+version: '3'
+services:
+  rsyslog_tcp:
+    build:
+      dockerfile: Dockerfile
+      context: ./
+    image: qorzj/rsyslog
