@@ -1,0 +1,7 @@
+version: '3'
+services:
+    maven:
+        build:
+            dockerfile: Dockerfile
+            context: ./
+        image: qorzj/maven-jdk8-docker
