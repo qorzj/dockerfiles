@@ -1,0 +1,7 @@
+version: '3'
+services:
+  python_310_openai:
+    build:
+      dockerfile: dockerfile_py
+      context: ./
+    image: qorzj/python:3.10-alpine-openai
