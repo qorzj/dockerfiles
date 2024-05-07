@@ -1,7 +1,7 @@
 version: '3'
 services:
-  python_38_pmomake:
+  qorzj_pnpm:
     build:
-      dockerfile: dockerfile_py
+      dockerfile: Dockerfile
       context: ./
-    image: qorzj/python:3.8-alpine-pmomake
+    image: qorzj/pnpm
