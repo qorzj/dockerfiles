@@ -4,4 +4,4 @@ services:
         build:
             dockerfile: Dockerfile
             context: ./
-        image: qorzj/maven-jdk8-docker
+        image: qorzj/maven-jdk11-docker

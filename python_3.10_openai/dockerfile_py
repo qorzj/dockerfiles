@@ -1,8 +1,9 @@
-FROM python:3.10.2-alpine
+FROM python:3.8-alpine
 RUN apk add --update tzdata
 RUN apk add --update build-base linux-headers pcre-dev zlib-dev
 RUN cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 RUN echo 'Asia/Shanghai' > /etc/timezone
+RUN pip install --upgrade pip setuptools wheel
 RUN pip install "numpy<2,>=1"
 RUN pip install aiohttp aiosqlite Mako beautifulsoup4 langchain openai
 CMD date && python -c "print(__import__('datetime').datetime.now())"

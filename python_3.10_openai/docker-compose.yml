@@ -4,4 +4,4 @@ services:
     build:
       dockerfile: dockerfile_py
       context: ./
-    image: qorzj/python:3.10-alpine-openai
+    image: qorzj/python:3.10-alpine-openai  # 3.8 in fact
