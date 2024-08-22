@@ -1,0 +1,7 @@
+version: '3'
+services:
+  python_311_torch:
+    build:
+      dockerfile: Dockerfile
+      context: ./
+    image: qorzj/python:3.11-torch
