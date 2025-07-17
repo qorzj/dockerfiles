@@ -1,0 +1,7 @@
+version: '3'
+services:
+  qorzj_pnpm_vercel:
+    build:
+      dockerfile: Dockerfile
+      context: ./
+    image: qorzj/pnpm_vercel
