@@ -1,7 +1,7 @@
 version: '3'
 services:
-  python_311_build:
+  python_312_build:
     build:
       dockerfile: Dockerfile
       context: ./
-    image: qorzj/python:3.11-build
+    image: qorzj/python:3.12-build
